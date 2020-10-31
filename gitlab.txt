@@ -1,0 +1,14 @@
+accha eita ektu bolo j master theke pull nite hole ki dev/shamvil branch e theke pull command dibo 
+naki checkout kore development e giye then pull master dibo?
+
+direct dev/shamvil e thekei master branch theke pull nite paro. Tobe better hocche:
+
+git checkout development
+git pull origin development 
+git pull origin master
+git push origin development 
+git checkout dev/shamvil
+git pull origin development
+
+https://gist.github.com/cferdinandi/ef665330286fd5d7127d
+https://github.com/Kunena/Kunena-Forum/wiki/Create-a-new-branch-with-git-and-manage-branches
